@@ -15,6 +15,19 @@
 		F0385B181F594CB60053F2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0385B161F594CB60053F2F7 /* LaunchScreen.storyboard */; };
 		F0385B231F594CB60053F2F7 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B221F594CB60053F2F7 /* ____Tests.m */; };
 		F0385B2E1F594CB60053F2F7 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B2D1F594CB60053F2F7 /* ____UITests.m */; };
+		F0385B4C1F5951D70053F2F7 /* ClothTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B3D1F5951D70053F2F7 /* ClothTransition.m */; };
+		F0385B4D1F5951D70053F2F7 /* DoorsTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B3F1F5951D70053F2F7 /* DoorsTransition.m */; };
+		F0385B4E1F5951D70053F2F7 /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B411F5951D70053F2F7 /* FlipTransition.m */; };
+		F0385B4F1F5951D70053F2F7 /* HMGLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B431F5951D70053F2F7 /* HMGLTransition.m */; };
+		F0385B501F5951D70053F2F7 /* HMGLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B451F5951D70053F2F7 /* HMGLTransitionManager.m */; };
+		F0385B511F5951D70053F2F7 /* HMGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B471F5951D70053F2F7 /* HMGLTransitionView.m */; };
+		F0385B521F5951D70053F2F7 /* RotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B491F5951D70053F2F7 /* RotateTransition.m */; };
+		F0385B531F5951D70053F2F7 /* Switch3DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385B4B1F5951D70053F2F7 /* Switch3DTransition.m */; };
+		F0385B561F5951FD0053F2F7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0385B541F5951FD0053F2F7 /* 2.jpg */; };
+		F0385B591F5952170053F2F7 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0385B581F5952170053F2F7 /* 10.jpg */; };
+		F0385B5C1F5953920053F2F7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0385B5B1F5953920053F2F7 /* OpenGLES.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F0385B621F59571E0053F2F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0385B611F59571E0053F2F7 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F0385B641F59572D0053F2F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0385B631F59572D0053F2F7 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,30 @@
 		F0385B291F594CB60053F2F7 /* 高级动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高级动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0385B2D1F594CB60053F2F7 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		F0385B2F1F594CB60053F2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0385B3C1F5951D70053F2F7 /* ClothTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTransition.h; sourceTree = "<group>"; };
+		F0385B3D1F5951D70053F2F7 /* ClothTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTransition.m; sourceTree = "<group>"; };
+		F0385B3E1F5951D70053F2F7 /* DoorsTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorsTransition.h; sourceTree = "<group>"; };
+		F0385B3F1F5951D70053F2F7 /* DoorsTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorsTransition.m; sourceTree = "<group>"; };
+		F0385B401F5951D70053F2F7 /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransition.h; sourceTree = "<group>"; };
+		F0385B411F5951D70053F2F7 /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
+		F0385B421F5951D70053F2F7 /* HMGLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransition.h; sourceTree = "<group>"; };
+		F0385B431F5951D70053F2F7 /* HMGLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransition.m; sourceTree = "<group>"; };
+		F0385B441F5951D70053F2F7 /* HMGLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionManager.h; sourceTree = "<group>"; };
+		F0385B451F5951D70053F2F7 /* HMGLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionManager.m; sourceTree = "<group>"; };
+		F0385B461F5951D70053F2F7 /* HMGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionView.h; sourceTree = "<group>"; };
+		F0385B471F5951D70053F2F7 /* HMGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionView.m; sourceTree = "<group>"; };
+		F0385B481F5951D70053F2F7 /* RotateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateTransition.h; sourceTree = "<group>"; };
+		F0385B491F5951D70053F2F7 /* RotateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateTransition.m; sourceTree = "<group>"; };
+		F0385B4A1F5951D70053F2F7 /* Switch3DTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch3DTransition.h; sourceTree = "<group>"; };
+		F0385B4B1F5951D70053F2F7 /* Switch3DTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch3DTransition.m; sourceTree = "<group>"; };
+		F0385B541F5951FD0053F2F7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = HMGLTransitions/2.jpg; sourceTree = "<group>"; };
+		F0385B581F5952170053F2F7 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		F0385B5B1F5953920053F2F7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F0385B5D1F5953B00053F2F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0385B5F1F5953C90053F2F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0385B611F59571E0053F2F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0385B631F59572D0053F2F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0385B651F5957330053F2F7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0385B621F59571E0053F2F7 /* QuartzCore.framework in Frameworks */,
+				F0385B641F59572D0053F2F7 /* CoreGraphics.framework in Frameworks */,
+				F0385B5C1F5953920053F2F7 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +121,17 @@
 		F0385AFC1F594CB60053F2F7 = {
 			isa = PBXGroup;
 			children = (
+				F0385B581F5952170053F2F7 /* 10.jpg */,
+				F0385B541F5951FD0053F2F7 /* 2.jpg */,
+				F0385B651F5957330053F2F7 /* OpenGLES.framework */,
+				F0385B631F59572D0053F2F7 /* CoreGraphics.framework */,
+				F0385B611F59571E0053F2F7 /* QuartzCore.framework */,
+				F0385B3B1F5951D70053F2F7 /* HMGLTransitions */,
 				F0385B071F594CB60053F2F7 /* 高级动画 */,
 				F0385B211F594CB60053F2F7 /* 高级动画Tests */,
 				F0385B2C1F594CB60053F2F7 /* 高级动画UITests */,
 				F0385B061F594CB60053F2F7 /* Products */,
+				F0385B5A1F5953910053F2F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +185,39 @@
 				F0385B2F1F594CB60053F2F7 /* Info.plist */,
 			);
 			path = "高级动画UITests";
+			sourceTree = "<group>";
+		};
+		F0385B3B1F5951D70053F2F7 /* HMGLTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				F0385B3C1F5951D70053F2F7 /* ClothTransition.h */,
+				F0385B3D1F5951D70053F2F7 /* ClothTransition.m */,
+				F0385B3E1F5951D70053F2F7 /* DoorsTransition.h */,
+				F0385B3F1F5951D70053F2F7 /* DoorsTransition.m */,
+				F0385B401F5951D70053F2F7 /* FlipTransition.h */,
+				F0385B411F5951D70053F2F7 /* FlipTransition.m */,
+				F0385B421F5951D70053F2F7 /* HMGLTransition.h */,
+				F0385B431F5951D70053F2F7 /* HMGLTransition.m */,
+				F0385B441F5951D70053F2F7 /* HMGLTransitionManager.h */,
+				F0385B451F5951D70053F2F7 /* HMGLTransitionManager.m */,
+				F0385B461F5951D70053F2F7 /* HMGLTransitionView.h */,
+				F0385B471F5951D70053F2F7 /* HMGLTransitionView.m */,
+				F0385B481F5951D70053F2F7 /* RotateTransition.h */,
+				F0385B491F5951D70053F2F7 /* RotateTransition.m */,
+				F0385B4A1F5951D70053F2F7 /* Switch3DTransition.h */,
+				F0385B4B1F5951D70053F2F7 /* Switch3DTransition.m */,
+			);
+			path = HMGLTransitions;
+			sourceTree = "<group>";
+		};
+		F0385B5A1F5953910053F2F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0385B5F1F5953C90053F2F7 /* QuartzCore.framework */,
+				F0385B5D1F5953B00053F2F7 /* CoreGraphics.framework */,
+				F0385B5B1F5953920053F2F7 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +326,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0385B591F5952170053F2F7 /* 10.jpg in Resources */,
 				F0385B181F594CB60053F2F7 /* LaunchScreen.storyboard in Resources */,
 				F0385B151F594CB60053F2F7 /* Assets.xcassets in Resources */,
+				F0385B561F5951FD0053F2F7 /* 2.jpg in Resources */,
 				F0385B131F594CB60053F2F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +355,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0385B511F5951D70053F2F7 /* HMGLTransitionView.m in Sources */,
+				F0385B501F5951D70053F2F7 /* HMGLTransitionManager.m in Sources */,
 				F0385B101F594CB60053F2F7 /* ViewController.m in Sources */,
+				F0385B521F5951D70053F2F7 /* RotateTransition.m in Sources */,
+				F0385B4C1F5951D70053F2F7 /* ClothTransition.m in Sources */,
+				F0385B4F1F5951D70053F2F7 /* HMGLTransition.m in Sources */,
+				F0385B4D1F5951D70053F2F7 /* DoorsTransition.m in Sources */,
 				F0385B0D1F594CB60053F2F7 /* AppDelegate.m in Sources */,
 				F0385B0A1F594CB60053F2F7 /* main.m in Sources */,
+				F0385B4E1F5951D70053F2F7 /* FlipTransition.m in Sources */,
+				F0385B531F5951D70053F2F7 /* Switch3DTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +514,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = "高级动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +527,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = "高级动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

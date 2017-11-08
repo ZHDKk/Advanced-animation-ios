@@ -11,5 +11,13 @@
 @interface ViewController : UIViewController
 
 
+{
+    //动画切换容器父视图
+    UIView *_parentView;
+    
+    UIImageView *_imageView01;
+    
+    UIImageView *_imageView02;
+}
 @end
 
